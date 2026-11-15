@@ -135,8 +135,8 @@ document.getElementById('resetBtn').onclick=makePuzzle;
 document.getElementById('definitionBtn').onclick=()=>{const d=document.getElementById('definitions');d.innerHTML=WORDS.map(w=>'<div><b>'+w+':</b> '+DEFINITIONS[w]+'</div>').join('')};
 
 // SUPABASE SETUP: paste your project URL and anon/public key here.
-const SUPABASE_URL = 'PASTE_YOUR_SUPABASE_PROJECT_URL_HERE';
-const SUPABASE_ANON_KEY = 'PASTE_YOUR_SUPABASE_ANON_KEY_HERE';
+const SUPABASE_URL = 'bdeqrazisindrtrsgmex';
+const SUPABASE_ANON_KEY = 'ap-southeast-2';
 let db = null;
 let liveChannel = null;
 let studentId = localStorage.getItem('qlearnStudentId');
